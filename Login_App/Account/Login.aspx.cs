@@ -38,7 +38,7 @@ namespace Login_App.Account
                 switch (result)
                 {
                     case SignInStatus.Success:
-                        Response.Redirect("/Account/Home");
+                        Response.Redirect("/Account/Dashboard");
                        // IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
                         break;
                     case SignInStatus.LockedOut:
